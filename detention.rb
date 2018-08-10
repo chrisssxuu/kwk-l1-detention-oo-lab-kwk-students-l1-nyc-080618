@@ -1,7 +1,7 @@
 #Code your detention class here
 class Detention 
   def initialize
-    @activity="collective punshiment"
+    @activity="collective punishment"
   end
   def activity
     @activity
