@@ -6,6 +6,9 @@ class Detention
   def activity
     @activity
   end
+  def students
+    @students
+  end
   def location
     @location
   end
