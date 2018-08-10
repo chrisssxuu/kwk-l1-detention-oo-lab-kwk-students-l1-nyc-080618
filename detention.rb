@@ -3,6 +3,9 @@ class Detention
   def initialize(collective_punishment)
     @activity=collective_punishment
   end
+  def collective_punishment
+    @collective_punishment
+  end
   def location
     @location
   end
