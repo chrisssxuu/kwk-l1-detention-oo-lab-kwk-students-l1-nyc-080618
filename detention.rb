@@ -2,7 +2,7 @@
 class Detention 
   def initialize 
   end
-  def locataion
+  def locationn
     @location
   end
   def location=(room)
