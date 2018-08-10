@@ -17,7 +17,7 @@ class Detention
     x = @students.length
     count = 0 
     while count <= x
-      if @students[count] = name
+      if @students[count] == name
         break
       count += 1
       end
