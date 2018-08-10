@@ -19,10 +19,10 @@ class Detention
     while count <= x
       if @students[count] == name
         break
-      count += 1
       end
-    @students.delete_at(count)
+      count += 1
     end
+    @students.delete_at(count)
   end
   def location
     @location
