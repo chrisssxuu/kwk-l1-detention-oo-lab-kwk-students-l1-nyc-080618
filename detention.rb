@@ -10,9 +10,7 @@ class Detention
     @students=[]
   end
   def add_students(name)
-    s = 0 
-    @students[s]=name
-    s += 1
+    
   end
   def location
     @location
