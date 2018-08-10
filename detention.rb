@@ -24,6 +24,7 @@ class Detention
       end
     @students.delete_at(count)
   end
+  end
   def location
     @location
   end
