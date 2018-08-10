@@ -14,9 +14,9 @@ class Detention
     @students.push(name)
   end
   def remove_student
-    l = @students.length
+    x = @students.length
     count = 0 
-    while count <= l 
+    while count <= x
       if @students[count] == name
         break
       count += 1
