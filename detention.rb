@@ -13,6 +13,9 @@ class Detention
   def add_student(name)
     @students.push(name)
   end
+  def remove_student
+    @students.remove(name)
+  end
   def location
     @location
   end
