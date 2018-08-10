@@ -7,11 +7,12 @@ class Detention
     @location
   end
   def location=(room)
+    @location=room
   end 
   def time 
     @time
   end
   def time=(clock)
-    @time
+    @time=clock
   end
 end
