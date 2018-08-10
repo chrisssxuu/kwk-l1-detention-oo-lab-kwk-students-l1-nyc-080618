@@ -14,6 +14,7 @@ class Detention
     @students.push(name)
   end
   def remove_student
+    @students.length
     @students.delete(name)
   end
   def location
