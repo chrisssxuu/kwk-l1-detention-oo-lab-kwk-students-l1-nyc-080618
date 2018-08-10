@@ -2,7 +2,6 @@
 class Detention 
   def initialize
     @activity="collective punishment"
-    @add_students="Rebecca"
   end
   def activity
     @activity
@@ -10,7 +9,7 @@ class Detention
   def students
     @students=[]
   end
-  def add_students(name)
+  def add_student(name)
     @students.push(name)
   end
   def location
