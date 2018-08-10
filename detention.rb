@@ -13,7 +13,7 @@ class Detention
   def add_student(name)
     @students.push(name)
   end
-  def remove_student
+  def remove_students
     x = @students.length
     count = 0 
     while count <= x
