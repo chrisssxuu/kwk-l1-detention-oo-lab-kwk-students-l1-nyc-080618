@@ -18,6 +18,6 @@ class Detention
     @grumpy_teacher
   end
   def grumpy_teacher=(punish)
-    @grumpy_teacher=punsh
+    @grumpy_teacher=punish
   end
 end
