@@ -10,7 +10,7 @@ class Detention
     @students=[]
   end
   def add_students(name)
-    @students << name
+    @student = @students << name
   end
   def location
     @location
