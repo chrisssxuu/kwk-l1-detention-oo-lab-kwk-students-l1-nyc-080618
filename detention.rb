@@ -7,7 +7,7 @@ class Detention
     @activity
   end
   def students
-    @students
+    @students=[]
   end
   def location
     @location
