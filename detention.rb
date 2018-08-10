@@ -14,8 +14,14 @@ class Detention
     @students.push(name)
   end
   def remove_student
-    @students.length
-    @students.delete(name)
+    l = @students.length
+    count = 0 
+    while count <= l 
+      if 
+        @students[count] == name
+        break
+      end
+    @students.delete_at(count)
   end
   def location
     @location
